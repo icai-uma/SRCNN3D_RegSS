@@ -2,7 +2,7 @@
 
 SRCNN3D+RegSS
 ---
-This code executes the RegSS-SRCNN3D method for a set of input images
+This code executes the SRCNN3D+RegSS method for a set of input images
 
 ## Pre-requisites
 
@@ -12,7 +12,7 @@ This code executes the RegSS-SRCNN3D method for a set of input images
 
 ## Set up
 
-1. Open Demo_RegSS-SRCNN3D.sh.
+1. Open Demo_SRCNN3D_RegSS.sh.
 2. Set the appropiate paths.
 3. Set the desired ZoomFactor value.
 4. The folder 'Images' should sotre those images that are going to be reconstructed.
@@ -22,5 +22,5 @@ There are two options mutually compatibles:
 ---
 
 ## RUN
-Run Demo_RegSS-SRCNN3D.sh in a bash shell. If a Conda environment is used, please activate it 
+Run Demo_SRCNN3D_RegSS.sh in a bash shell. If a Conda environment is used, please activate it 
 before launch the script.

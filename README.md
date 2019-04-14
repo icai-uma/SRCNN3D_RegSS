@@ -1,7 +1,8 @@
-**Super-resolution of 3D MRI images by regular random shifting: SRCNN3D+RegSS**
+**Super-resolution of 3D MRI images by regular random shifting**
 
-This code executes the RegSS-SRCNN3D method for a set of input images
+SRCNN3D+RegSS
 ---
+This code executes the RegSS-SRCNN3D method for a set of input images
 
 ## Pre-requisites
 
@@ -18,20 +19,6 @@ This code executes the RegSS-SRCNN3D method for a set of input images
 There are two options mutually compatibles:
 - Use HR images as the input. In this case, the HR will be downsampled using ZoomFactor  and the resulting LR image will be processed. Finally, quality measures are displayed.
 - Use LR as input. Quality won't be displayed as there is not a HR reference image.
----
-
-## Create a file
-
-Next, you’ll add a new file to this repository.
-
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
-
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
-
 ---
 
 ## RUN

@@ -10,7 +10,6 @@ This code executes the **SRCNN3D+RegSS** method for a set of input images. The c
 
 - The **SRCNN3D** method must be installed in the system. Please, follow instalation instructions from [here](https://github.com/rousseau/deepBrain/tree/master/SRCNN3D).
 - Matlab (tested on v2018b or earlier). Deep learning toolbox is required to execute VDSR competing method.
----
 
 ### Set up
 
@@ -21,7 +20,6 @@ This code executes the **SRCNN3D+RegSS** method for a set of input images. The c
 There are two options mutually compatibles:
 - Use HR images as the input. In this case, the HR will be downsampled using ZoomFactor  and the resulting LR image will be processed. Finally, quality measures are displayed.
 - Use LR as input. Quality won't be displayed as there is not a HR reference image.
----
 
 ### Run the Demo
 

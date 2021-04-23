@@ -4,7 +4,9 @@ This repository contains the source code of the paper [Deep learning-based super
 
 This code executes the **SRCNN3D+RegSS** method for a set of input images. The contents of this code are provided without any warranty. They are intended for evaluational purposes only.
 
-->![Alt text](Example.PNG?raw=true "Operation method of SRCNN3D+RegSS")<-
+<p align="center">
+  <img src="https://bitbucket.org/icaiuma/srcnn3d_regss/src/master/Example.PNG?raw=true" alt="Operation method of SRCNN3D+RegSS"/>
+</p>
 
 ### Pre-requisites
 

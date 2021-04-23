@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+## Deep learning-based super-resolution of 3D magnetic resonance images by regularly spaced shifting
 
-You can use the [editor on GitHub](https://github.com/icai-uma/SRCNN3D_RegSS/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This repository contains the source code of the paper [Deep learning-based super-resolution of 3D magnetic resonance images by regularly spaced shifting](https://doi.org/10.1016/j.neucom.2019.05.107).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This code executes the **SRCNN3D+RegSS** method for a set of input images. The contents of this code are provided without any warranty. They are intended for evaluational purposes only.
 
-### Markdown
+![Alt text](Example.PNG?raw=true "Operation method of SRCNN3D+RegSS")
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Pre-requisites
 
-```markdown
-Syntax highlighted code block
+- The **SRCNN3D** method must be installed in the system. Please, follow instalation instructions from [here](https://github.com/rousseau/deepBrain/tree/master/SRCNN3D).
+- Matlab (tested on v2018b or earlier). Deep learning toolbox is required to execute VDSR competing method.
+---
 
-# Header 1
-## Header 2
-### Header 3
+### Set up
 
-- Bulleted
-- List
+1. Open Demo_SRCNN3D_RegSS.sh.
+2. Set the appropiate paths.
+3. Set the desired ZoomFactor value.
+4. The folder 'Images' should sotre those images that are going to be reconstructed.
+There are two options mutually compatibles:
+- Use HR images as the input. In this case, the HR will be downsampled using ZoomFactor  and the resulting LR image will be processed. Finally, quality measures are displayed.
+- Use LR as input. Quality won't be displayed as there is not a HR reference image.
+---
 
-1. Numbered
-2. List
+### Run the Demo
 
-**Bold** and _Italic_ and `Code` text
+Run Demo_SRCNN3D_RegSS.sh in a bash shell. If a Conda environment is used, please activate it 
+before launch the script.
 
-[Link](url) and ![Image](src)
-```
+---
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Citation
 
-### Jekyll Themes
+Please, cite this work as:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/icai-uma/SRCNN3D_RegSS/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Karl Thurnhofer-Hemsi, Ezequiel López-Rubio, Enrique Domínguez, Rafael Marcos Luque-Baena, Núria Roé-Vellvé,
+Deep learning-based super-resolution of 3D magnetic resonance images by regularly spaced shifting,
+Neurocomputing, Volume 398, 314-327, 2020. ISSN 0925-2312
+https://doi.org/10.1016/j.neucom.2019.05.107.
+(https://www.sciencedirect.com/science/article/pii/S0925231219314808)

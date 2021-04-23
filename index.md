@@ -6,6 +6,7 @@ This code executes the **SRCNN3D+RegSS** method for a set of input images. The c
 
 ![Operation method of SRCNN3D+RegSS](https://raw.githubusercontent.com/icai-uma/SRCNN3D_RegSS/master/Example.PNG?raw=true "Operation method of SRCNN3D+RegSS")
 
+
 ### Pre-requisites
 
 - The **SRCNN3D** method must be installed in the system. Please, follow instalation instructions from [here](https://github.com/rousseau/deepBrain/tree/master/SRCNN3D).

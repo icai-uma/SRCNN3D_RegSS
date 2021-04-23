@@ -24,8 +24,10 @@ There are two options mutually compatibles:
 ---
 
 ### Run the Demo
+
 Run Demo_SRCNN3D_RegSS.sh in a bash shell. If a Conda environment is used, please activate it 
 before launch the script.
+
 ---
 
 ### Citation

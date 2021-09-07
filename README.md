@@ -17,7 +17,7 @@ This code executes the **SRCNN3D+RegSS** method for a set of input images. The c
 1. Open Demo_SRCNN3D_RegSS.sh.
 2. Set the appropiate paths.
 3. Set the desired ZoomFactor value.
-4. The folder 'Images' should sotre those images that are going to be reconstructed.
+4. The folder 'Images' should store those images that are going to be reconstructed.
 There are two options mutually compatibles:
 - Use HR images as the input. In this case, the HR will be downsampled using ZoomFactor  and the resulting LR image will be processed. Finally, quality measures are displayed.
 - Use LR as input. Quality won't be displayed as there is not a HR reference image.
